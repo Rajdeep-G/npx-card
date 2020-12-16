@@ -14,4 +14,3 @@ P.S -complete time pass before the SAS viva :3
 
 Reference: https://studioelsa.se/blog/open-source-oss-npx-business-card/
 
-P.S - a complete time pass :3
