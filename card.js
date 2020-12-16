@@ -46,7 +46,7 @@ const data = {
     .hex("#2b82b2")
     .bold("IIEST, Shibpur")}`,
 
-  github: chalk.gray("https://github.com/") + chalk.green("Rajdeep-2k"),
+  github: chalk.gray("https://github.com/") + chalk.green("Rajdeep-G"),
   linkedin:
     chalk.gray("https://linkedin.com/in/") + chalk.blue("rajdeep-ghosh2000rg/"),
 
