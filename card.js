@@ -42,15 +42,15 @@ const questions = [
 const data = {
   name: chalk.bold.green("             Rajdeep Ghosh"),
   handle: chalk.white("@Rajdeep-G"),
-  work: `${chalk.white("Sophomore at ")} ${chalk
+  work: `${chalk.magenta("Sophomore at ")} ${chalk
     .hex("#2b82b2")
     .bold("IIEST, Shibpur")}`,
 
   github: chalk.gray("https://github.com/") + chalk.green("Rajdeep-G"),
   linkedin:
-    chalk.gray("https://linkedin.com/in/") + chalk.blue("rajdeep-ghosh2000rg/"),
+    chalk.gray("https://linkedin.com/in/") + chalk.blueBright("rajdeep-ghosh2000rg/"),
 
-  npx: chalk.red("npx") + " " + chalk.white("Rajdeep"),
+  npx: chalk.red("npx") + " " + chalk.greenBright("Rajdeep"),
 
   labelWork: chalk.white.bold("       Work:"),
   labelGitHub: chalk.white.bold("     GitHub:"),
@@ -63,15 +63,12 @@ const me = boxen(
     `${data.name}`,
     ``,
     `${data.labelWork}  ${data.work}`,
-    ``,
-
     `${data.labelGitHub}  ${data.github}`,
     `${data.labelLinkedIn}  ${data.linkedin}`,
-
     ``,
     `${data.labelCard}  ${data.npx}`,
     ``,
-    `${chalk.italic("I am currently looking for new opportunities,")}`,
+    `${chalk.italic("          I am currently looking for new opportunities,")}`,
   ].join("\n"),
   {
     margin: 2,

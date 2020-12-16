@@ -1,10 +1,10 @@
 {
-  "name": "rajdeep",
+  "name": "rajdeep2k",
   "version": "2.1.4",
   "description": "A personal card for Rajdeep Ghsoh",
   "main": "card.js",
   "bin": {
-    "rajdeep2k": "./card.js"
+    "rajdeep": "./card.js"
   },
   "repository": {
     "type": "git",
