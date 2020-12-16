@@ -50,7 +50,7 @@ const data = {
   linkedin:
     chalk.gray("https://linkedin.com/in/") + chalk.blueBright("rajdeep-ghosh2000rg/"),
 
-  npx: chalk.red("npx") + " " + chalk.greenBright("Rajdeep"),
+  npx: chalk.red("npx") + " " + chalk.greenBright("rajdeep-g"),
 
   labelWork: chalk.white.bold("       Work:"),
   labelGitHub: chalk.white.bold("     GitHub:"),
